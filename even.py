@@ -1,5 +1,8 @@
 user_input = int(input())
 
+list_A  = []
 for i in range(user_input):
     if i % 2 == 0:
-        print(f"{i} is even number")
+        list_A.append(i)
+
+print(list_A)
